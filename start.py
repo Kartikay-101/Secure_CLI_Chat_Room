@@ -102,7 +102,7 @@ class ChatClient:
     def connect_to_server(self):
         host = simpledialog.askstring("Server IP", "Enter the server IP address:")
         try:
-            ssl_client.connect((host, 55545))
+            ssl_client.connect((host, 55546))
         except Exception as e:
             messagebox.showerror("Connection Failed", str(e))
             self.window.quit()
