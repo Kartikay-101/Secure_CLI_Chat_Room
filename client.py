@@ -26,7 +26,7 @@ print(" " * 15 + "Welcome to the Secure Chat Room")
 print(" "*5+"="*50)
 print(Fore.BLUE + "\n" + " " *3 + "Please enter the server IP address:- " + Style.RESET_ALL, end="")
 host = input()
-port = 55545
+port = 55546
 
 # Created an SSL context
 context = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
